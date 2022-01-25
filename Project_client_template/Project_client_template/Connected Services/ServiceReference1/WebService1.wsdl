@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="HelloWorld">
+        <s:complexType />
+      </s:element>
+      <s:element name="HelloWorldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="HelloWorldResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="verifyLogin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="verifyLoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="verifyLoginResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertLogin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertLoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="insertLoginResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertClient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="surname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="birthday" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="other_details" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertClientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="insertClientResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertChef">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="surname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="birthday" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="id_loc" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="other_details" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="insertChefResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="insertChefResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChefs">
+        <s:complexType />
+      </s:element>
+      <s:element name="getChefsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getChefsResult" type="tns:ArrayOfChef" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfChef">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Chef" nillable="true" type="tns:Chef" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Chef" />
+      <s:element name="updatePassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updatePasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="updatePasswordResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateNameClient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateNameClientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="updateNameClientResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateNameChef">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateNameChefResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="updateNameChefResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateDetailsClient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="details" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateDetailsClientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="updateDetailsClientResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateStuffClient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="surname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="address" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="birthday" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateStuffClientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="updateStuffClientResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateDetailsChefs">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="details" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateDetailsChefsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="updateDetailsChefsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAppointmentsClient">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAppointmentsClientResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAppointmentsClientResult" type="tns:ArrayOfInt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="int" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getDetailsOfAppointment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDetailsOfAppointmentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDetailsOfAppointmentResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="getClientDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getClientDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getClientDetailsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="verifyAppointment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="location" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="hour" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="verifyAppointmentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="verifyAppointmentResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createAppointment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="location" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="hour" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="surname" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="createAppointmentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="createAppointmentResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteAppointment">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="location" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="date" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="hour" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="nameChef" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="surnameChef" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteAppointmentResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deleteAppointmentResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getUsername">
+        <s:complexType />
+      </s:element>
+      <s:element name="getUsernameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getUsernameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setUsername">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="setUsernameResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="getPassword">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getPasswordResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getPasswordResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteAccount">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteAccountResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="deleteAccountResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAllLocations">
+        <s:complexType />
+      </s:element>
+      <s:element name="getAllLocationsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAllLocationsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChefDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getChefDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getChefDetailsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateStuffChefs">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="name" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="surname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="birthday" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="updateStuffChefsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="updateStuffChefsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getIDsOfAppointmentsChef">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="username" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getIDsOfAppointmentsChefResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getIDsOfAppointmentsChefResult" type="tns:ArrayOfInt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAppDetailsChef">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="id_appointment" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAppDetailsChefResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAppDetailsChefResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getAllUsernamesOfChefs">
+        <s:complexType />
+      </s:element>
+      <s:element name="getAllUsernamesOfChefsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getAllUsernamesOfChefsResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="HelloWorldSoapIn">
+    <wsdl:part name="parameters" element="tns:HelloWorld" />
+  </wsdl:message>
+  <wsdl:message name="HelloWorldSoapOut">
+    <wsdl:part name="parameters" element="tns:HelloWorldResponse" />
+  </wsdl:message>
+  <wsdl:message name="verifyLoginSoapIn">
+    <wsdl:part name="parameters" element="tns:verifyLogin" />
+  </wsdl:message>
+  <wsdl:message name="verifyLoginSoapOut">
+    <wsdl:part name="parameters" element="tns:verifyLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="insertLoginSoapIn">
+    <wsdl:part name="parameters" element="tns:insertLogin" />
+  </wsdl:message>
+  <wsdl:message name="insertLoginSoapOut">
+    <wsdl:part name="parameters" element="tns:insertLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="insertClientSoapIn">
+    <wsdl:part name="parameters" element="tns:insertClient" />
+  </wsdl:message>
+  <wsdl:message name="insertClientSoapOut">
+    <wsdl:part name="parameters" element="tns:insertClientResponse" />
+  </wsdl:message>
+  <wsdl:message name="insertChefSoapIn">
+    <wsdl:part name="parameters" element="tns:insertChef" />
+  </wsdl:message>
+  <wsdl:message name="insertChefSoapOut">
+    <wsdl:part name="parameters" element="tns:insertChefResponse" />
+  </wsdl:message>
+  <wsdl:message name="getChefsSoapIn">
+    <wsdl:part name="parameters" element="tns:getChefs" />
+  </wsdl:message>
+  <wsdl:message name="getChefsSoapOut">
+    <wsdl:part name="parameters" element="tns:getChefsResponse" />
+  </wsdl:message>
+  <wsdl:message name="updatePasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:updatePassword" />
+  </wsdl:message>
+  <wsdl:message name="updatePasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:updatePasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateNameClientSoapIn">
+    <wsdl:part name="parameters" element="tns:updateNameClient" />
+  </wsdl:message>
+  <wsdl:message name="updateNameClientSoapOut">
+    <wsdl:part name="parameters" element="tns:updateNameClientResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateNameChefSoapIn">
+    <wsdl:part name="parameters" element="tns:updateNameChef" />
+  </wsdl:message>
+  <wsdl:message name="updateNameChefSoapOut">
+    <wsdl:part name="parameters" element="tns:updateNameChefResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateDetailsClientSoapIn">
+    <wsdl:part name="parameters" element="tns:updateDetailsClient" />
+  </wsdl:message>
+  <wsdl:message name="updateDetailsClientSoapOut">
+    <wsdl:part name="parameters" element="tns:updateDetailsClientResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateStuffClientSoapIn">
+    <wsdl:part name="parameters" element="tns:updateStuffClient" />
+  </wsdl:message>
+  <wsdl:message name="updateStuffClientSoapOut">
+    <wsdl:part name="parameters" element="tns:updateStuffClientResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateDetailsChefsSoapIn">
+    <wsdl:part name="parameters" element="tns:updateDetailsChefs" />
+  </wsdl:message>
+  <wsdl:message name="updateDetailsChefsSoapOut">
+    <wsdl:part name="parameters" element="tns:updateDetailsChefsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAppointmentsClientSoapIn">
+    <wsdl:part name="parameters" element="tns:getAppointmentsClient" />
+  </wsdl:message>
+  <wsdl:message name="getAppointmentsClientSoapOut">
+    <wsdl:part name="parameters" element="tns:getAppointmentsClientResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDetailsOfAppointmentSoapIn">
+    <wsdl:part name="parameters" element="tns:getDetailsOfAppointment" />
+  </wsdl:message>
+  <wsdl:message name="getDetailsOfAppointmentSoapOut">
+    <wsdl:part name="parameters" element="tns:getDetailsOfAppointmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getClientDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:getClientDetails" />
+  </wsdl:message>
+  <wsdl:message name="getClientDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:getClientDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="verifyAppointmentSoapIn">
+    <wsdl:part name="parameters" element="tns:verifyAppointment" />
+  </wsdl:message>
+  <wsdl:message name="verifyAppointmentSoapOut">
+    <wsdl:part name="parameters" element="tns:verifyAppointmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="createAppointmentSoapIn">
+    <wsdl:part name="parameters" element="tns:createAppointment" />
+  </wsdl:message>
+  <wsdl:message name="createAppointmentSoapOut">
+    <wsdl:part name="parameters" element="tns:createAppointmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteAppointmentSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteAppointment" />
+  </wsdl:message>
+  <wsdl:message name="deleteAppointmentSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteAppointmentResponse" />
+  </wsdl:message>
+  <wsdl:message name="getUsernameSoapIn">
+    <wsdl:part name="parameters" element="tns:getUsername" />
+  </wsdl:message>
+  <wsdl:message name="getUsernameSoapOut">
+    <wsdl:part name="parameters" element="tns:getUsernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="setUsernameSoapIn">
+    <wsdl:part name="parameters" element="tns:setUsername" />
+  </wsdl:message>
+  <wsdl:message name="setUsernameSoapOut">
+    <wsdl:part name="parameters" element="tns:setUsernameResponse" />
+  </wsdl:message>
+  <wsdl:message name="getPasswordSoapIn">
+    <wsdl:part name="parameters" element="tns:getPassword" />
+  </wsdl:message>
+  <wsdl:message name="getPasswordSoapOut">
+    <wsdl:part name="parameters" element="tns:getPasswordResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteAccountSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteAccount" />
+  </wsdl:message>
+  <wsdl:message name="deleteAccountSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteAccountResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllLocationsSoapIn">
+    <wsdl:part name="parameters" element="tns:getAllLocations" />
+  </wsdl:message>
+  <wsdl:message name="getAllLocationsSoapOut">
+    <wsdl:part name="parameters" element="tns:getAllLocationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getChefDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:getChefDetails" />
+  </wsdl:message>
+  <wsdl:message name="getChefDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:getChefDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="updateStuffChefsSoapIn">
+    <wsdl:part name="parameters" element="tns:updateStuffChefs" />
+  </wsdl:message>
+  <wsdl:message name="updateStuffChefsSoapOut">
+    <wsdl:part name="parameters" element="tns:updateStuffChefsResponse" />
+  </wsdl:message>
+  <wsdl:message name="getIDsOfAppointmentsChefSoapIn">
+    <wsdl:part name="parameters" element="tns:getIDsOfAppointmentsChef" />
+  </wsdl:message>
+  <wsdl:message name="getIDsOfAppointmentsChefSoapOut">
+    <wsdl:part name="parameters" element="tns:getIDsOfAppointmentsChefResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAppDetailsChefSoapIn">
+    <wsdl:part name="parameters" element="tns:getAppDetailsChef" />
+  </wsdl:message>
+  <wsdl:message name="getAppDetailsChefSoapOut">
+    <wsdl:part name="parameters" element="tns:getAppDetailsChefResponse" />
+  </wsdl:message>
+  <wsdl:message name="getAllUsernamesOfChefsSoapIn">
+    <wsdl:part name="parameters" element="tns:getAllUsernamesOfChefs" />
+  </wsdl:message>
+  <wsdl:message name="getAllUsernamesOfChefsSoapOut">
+    <wsdl:part name="parameters" element="tns:getAllUsernamesOfChefsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebService1Soap">
+    <wsdl:operation name="HelloWorld">
+      <wsdl:input message="tns:HelloWorldSoapIn" />
+      <wsdl:output message="tns:HelloWorldSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="verifyLogin">
+      <wsdl:input message="tns:verifyLoginSoapIn" />
+      <wsdl:output message="tns:verifyLoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertLogin">
+      <wsdl:input message="tns:insertLoginSoapIn" />
+      <wsdl:output message="tns:insertLoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertClient">
+      <wsdl:input message="tns:insertClientSoapIn" />
+      <wsdl:output message="tns:insertClientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="insertChef">
+      <wsdl:input message="tns:insertChefSoapIn" />
+      <wsdl:output message="tns:insertChefSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getChefs">
+      <wsdl:input message="tns:getChefsSoapIn" />
+      <wsdl:output message="tns:getChefsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updatePassword">
+      <wsdl:input message="tns:updatePasswordSoapIn" />
+      <wsdl:output message="tns:updatePasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateNameClient">
+      <wsdl:input message="tns:updateNameClientSoapIn" />
+      <wsdl:output message="tns:updateNameClientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateNameChef">
+      <wsdl:input message="tns:updateNameChefSoapIn" />
+      <wsdl:output message="tns:updateNameChefSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateDetailsClient">
+      <wsdl:input message="tns:updateDetailsClientSoapIn" />
+      <wsdl:output message="tns:updateDetailsClientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateStuffClient">
+      <wsdl:input message="tns:updateStuffClientSoapIn" />
+      <wsdl:output message="tns:updateStuffClientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateDetailsChefs">
+      <wsdl:input message="tns:updateDetailsChefsSoapIn" />
+      <wsdl:output message="tns:updateDetailsChefsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAppointmentsClient">
+      <wsdl:input message="tns:getAppointmentsClientSoapIn" />
+      <wsdl:output message="tns:getAppointmentsClientSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDetailsOfAppointment">
+      <wsdl:input message="tns:getDetailsOfAppointmentSoapIn" />
+      <wsdl:output message="tns:getDetailsOfAppointmentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getClientDetails">
+      <wsdl:input message="tns:getClientDetailsSoapIn" />
+      <wsdl:output message="tns:getClientDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="verifyAppointment">
+      <wsdl:input message="tns:verifyAppointmentSoapIn" />
+      <wsdl:output message="tns:verifyAppointmentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="createAppointment">
+      <wsdl:input message="tns:createAppointmentSoapIn" />
+      <wsdl:output message="tns:createAppointmentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteAppointment">
+      <wsdl:input message="tns:deleteAppointmentSoapIn" />
+      <wsdl:output message="tns:deleteAppointmentSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getUsername">
+      <wsdl:input message="tns:getUsernameSoapIn" />
+      <wsdl:output message="tns:getUsernameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="setUsername">
+      <wsdl:input message="tns:setUsernameSoapIn" />
+      <wsdl:output message="tns:setUsernameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getPassword">
+      <wsdl:input message="tns:getPasswordSoapIn" />
+      <wsdl:output message="tns:getPasswordSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccount">
+      <wsdl:input message="tns:deleteAccountSoapIn" />
+      <wsdl:output message="tns:deleteAccountSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllLocations">
+      <wsdl:input message="tns:getAllLocationsSoapIn" />
+      <wsdl:output message="tns:getAllLocationsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getChefDetails">
+      <wsdl:input message="tns:getChefDetailsSoapIn" />
+      <wsdl:output message="tns:getChefDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="updateStuffChefs">
+      <wsdl:input message="tns:updateStuffChefsSoapIn" />
+      <wsdl:output message="tns:updateStuffChefsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getIDsOfAppointmentsChef">
+      <wsdl:input message="tns:getIDsOfAppointmentsChefSoapIn" />
+      <wsdl:output message="tns:getIDsOfAppointmentsChefSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAppDetailsChef">
+      <wsdl:input message="tns:getAppDetailsChefSoapIn" />
+      <wsdl:output message="tns:getAppDetailsChefSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllUsernamesOfChefs">
+      <wsdl:input message="tns:getAllUsernamesOfChefsSoapIn" />
+      <wsdl:output message="tns:getAllUsernamesOfChefsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebService1Soap" type="tns:WebService1Soap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifyLogin">
+      <soap:operation soapAction="http://tempuri.org/verifyLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertLogin">
+      <soap:operation soapAction="http://tempuri.org/insertLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertClient">
+      <soap:operation soapAction="http://tempuri.org/insertClient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertChef">
+      <soap:operation soapAction="http://tempuri.org/insertChef" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChefs">
+      <soap:operation soapAction="http://tempuri.org/getChefs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updatePassword">
+      <soap:operation soapAction="http://tempuri.org/updatePassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateNameClient">
+      <soap:operation soapAction="http://tempuri.org/updateNameClient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateNameChef">
+      <soap:operation soapAction="http://tempuri.org/updateNameChef" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDetailsClient">
+      <soap:operation soapAction="http://tempuri.org/updateDetailsClient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateStuffClient">
+      <soap:operation soapAction="http://tempuri.org/updateStuffClient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDetailsChefs">
+      <soap:operation soapAction="http://tempuri.org/updateDetailsChefs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAppointmentsClient">
+      <soap:operation soapAction="http://tempuri.org/getAppointmentsClient" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDetailsOfAppointment">
+      <soap:operation soapAction="http://tempuri.org/getDetailsOfAppointment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getClientDetails">
+      <soap:operation soapAction="http://tempuri.org/getClientDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifyAppointment">
+      <soap:operation soapAction="http://tempuri.org/verifyAppointment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAppointment">
+      <soap:operation soapAction="http://tempuri.org/createAppointment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAppointment">
+      <soap:operation soapAction="http://tempuri.org/deleteAppointment" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsername">
+      <soap:operation soapAction="http://tempuri.org/getUsername" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setUsername">
+      <soap:operation soapAction="http://tempuri.org/setUsername" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPassword">
+      <soap:operation soapAction="http://tempuri.org/getPassword" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccount">
+      <soap:operation soapAction="http://tempuri.org/deleteAccount" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllLocations">
+      <soap:operation soapAction="http://tempuri.org/getAllLocations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChefDetails">
+      <soap:operation soapAction="http://tempuri.org/getChefDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateStuffChefs">
+      <soap:operation soapAction="http://tempuri.org/updateStuffChefs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getIDsOfAppointmentsChef">
+      <soap:operation soapAction="http://tempuri.org/getIDsOfAppointmentsChef" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAppDetailsChef">
+      <soap:operation soapAction="http://tempuri.org/getAppDetailsChef" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllUsernamesOfChefs">
+      <soap:operation soapAction="http://tempuri.org/getAllUsernamesOfChefs" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebService1Soap12" type="tns:WebService1Soap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="HelloWorld">
+      <soap12:operation soapAction="http://tempuri.org/HelloWorld" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifyLogin">
+      <soap12:operation soapAction="http://tempuri.org/verifyLogin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertLogin">
+      <soap12:operation soapAction="http://tempuri.org/insertLogin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertClient">
+      <soap12:operation soapAction="http://tempuri.org/insertClient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertChef">
+      <soap12:operation soapAction="http://tempuri.org/insertChef" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChefs">
+      <soap12:operation soapAction="http://tempuri.org/getChefs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updatePassword">
+      <soap12:operation soapAction="http://tempuri.org/updatePassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateNameClient">
+      <soap12:operation soapAction="http://tempuri.org/updateNameClient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateNameChef">
+      <soap12:operation soapAction="http://tempuri.org/updateNameChef" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDetailsClient">
+      <soap12:operation soapAction="http://tempuri.org/updateDetailsClient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateStuffClient">
+      <soap12:operation soapAction="http://tempuri.org/updateStuffClient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateDetailsChefs">
+      <soap12:operation soapAction="http://tempuri.org/updateDetailsChefs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAppointmentsClient">
+      <soap12:operation soapAction="http://tempuri.org/getAppointmentsClient" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDetailsOfAppointment">
+      <soap12:operation soapAction="http://tempuri.org/getDetailsOfAppointment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getClientDetails">
+      <soap12:operation soapAction="http://tempuri.org/getClientDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="verifyAppointment">
+      <soap12:operation soapAction="http://tempuri.org/verifyAppointment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAppointment">
+      <soap12:operation soapAction="http://tempuri.org/createAppointment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAppointment">
+      <soap12:operation soapAction="http://tempuri.org/deleteAppointment" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getUsername">
+      <soap12:operation soapAction="http://tempuri.org/getUsername" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="setUsername">
+      <soap12:operation soapAction="http://tempuri.org/setUsername" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getPassword">
+      <soap12:operation soapAction="http://tempuri.org/getPassword" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteAccount">
+      <soap12:operation soapAction="http://tempuri.org/deleteAccount" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllLocations">
+      <soap12:operation soapAction="http://tempuri.org/getAllLocations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getChefDetails">
+      <soap12:operation soapAction="http://tempuri.org/getChefDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="updateStuffChefs">
+      <soap12:operation soapAction="http://tempuri.org/updateStuffChefs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getIDsOfAppointmentsChef">
+      <soap12:operation soapAction="http://tempuri.org/getIDsOfAppointmentsChef" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAppDetailsChef">
+      <soap12:operation soapAction="http://tempuri.org/getAppDetailsChef" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAllUsernamesOfChefs">
+      <soap12:operation soapAction="http://tempuri.org/getAllUsernamesOfChefs" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService1">
+    <wsdl:port name="WebService1Soap" binding="tns:WebService1Soap">
+      <soap:address location="https://localhost:44384/WebService1.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebService1Soap12" binding="tns:WebService1Soap12">
+      <soap12:address location="https://localhost:44384/WebService1.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

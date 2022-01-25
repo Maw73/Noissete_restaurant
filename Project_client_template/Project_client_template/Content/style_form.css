@@ -1,0 +1,341 @@
+/*GOLD COLOR #eccc68*/
+/*DARK BLUE COLOR #0a0e13*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.clearfix {
+    zoom:1
+}
+.clearfix:after {
+    content:" ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto; /*set right margin to auto and left margin to auto - center top,bottom=0 and left,right=auto*/
+}
+
+.text-box{
+    position:absolute; /*we can vertically and horizontally center it*/
+    width:1140px;
+    top:45%;
+    left:19%;
+}
+
+/*HEADINGS*/
+
+h1 {
+    margin: 0;
+    margin-bottom:15px;
+    color:#fff;
+    font-size: 240%;/*autumatically adjusting its size from the html size*/
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: 40px;
+    color: #000;
+    font-weight: 400;
+	font-size: 25px;
+	font-family: 'Lato';
+	text-align: center;
+}
+
+h3 {
+    color: #eccc68;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 35px;
+    margin-left:520px;
+    margin-top: 100px
+}
+
+h3:after {
+    display: block;
+    height: 2px;
+    background-color: #eccc68;
+    content: " ";
+    width: 170px;
+    margin-left: -38px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-left: 450px;
+}
+
+
+/*HEADER*/
+
+header {
+    background-image: linear-gradient(#fff, #fff);
+    background-size: cover; /*in orderd to see the whole image*/
+    background-position: center; /*centers the image*/
+    min-height: 100vh; /*100% of the viewport*/
+}
+
+
+
+/*Buttons*/
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 300;
+    border-radius: 10px;
+    border: 1px solid #eccc68;
+    color: #fff;
+    transition: background-color 0.4s;
+}
+
+.full-btn {
+    background-color: #eccc68;
+}
+
+.full-btn:hover,
+.full-btn:active {
+    background-color: #d4b85e;
+}
+
+/*FORM - CLIENTS*/
+.contact-form{
+    width:60%;
+    margin-left:auto;
+    margin-right: 70px;
+    margin-bottom: 100px;
+}
+
+input {
+    padding:5px;
+    border-radius:5px;
+    border: 1px solid #9b9b9b;
+	margin-bottom:10px;
+}
+
+
+.birthday{
+    width:110%;
+}
+
+::placeholder{
+    color:rgba(78, 78, 78, 0.54);
+    font-weight: 100;
+}
+
+label {
+    color: #000;
+}
+
+.login-ref{
+    color: #000;
+    font-size: 15px;
+	text-decoration: underline;
+}
+
+.login-ref:hover,
+.login-ref:active{
+    color: #40629a;
+}
+
+.login {
+    margin-left:140px;
+    margin-top: 25px;
+}
+
+.name,
+.surname,
+.email,
+.username,
+.password {
+	width:220px;
+}
+
+.surname {
+	margin-left: -20px;
+}
+
+
+/*NAVIGATION*/
+
+h1 {
+    margin: 0;
+    margin-bottom:15px;
+    color:#fff;
+    font-size: 40px;/*autumatically adjusting its size from the html size*/
+}
+
+.navigation {
+    background-color: #000;
+    box-shadow: 0 2px 2px #101010;
+    height: 14%;
+}
+
+.logo {
+    font-family: 'Dancing Script', sans-serif;
+    text-transform: none;
+    float: left;
+    margin-top: 20px;;
+}
+
+.navi{
+    float:right;
+    list-style: none; /*get rid of the bullet points*/
+    margin-top: 40px;
+}
+
+.navi li{ /*select all li elements inside the nav*/ 
+    display: inline;
+    margin-left: 30px;
+}
+
+.navi li a:link,
+.navi li a:visited {
+    color: #fff;
+    text-decoration: none; /*get rid of the underline*/
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.navi li a:hover,
+.navi li a:active {
+    color: #eccc68;
+}
+
+.navigation-hidden {
+	background-color: #000;
+    box-shadow: 0 2px 2px #101010;
+    height: 14%;
+	display: none;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #0a0e13;
+}
+
+.working-hours {
+    color: #eccc68
+}
+
+footer p {  
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+footer h1 {
+    padding-top: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+	font-family: 'Dancing Script', sans-serif;
+    text-transform: none;
+	text-align: center;
+}
+
+
+.footer-nav {
+    padding-top:10px;
+    list-style: none;
+    float:left;
+    font-size:16px;
+}
+
+.icon-contact1,
+.icon-contact2,
+.icon-contact3,
+.icon-contact4 {
+    padding-top: 10px;
+    list-style: none;
+    float: right;
+    width: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    filter: invert(54%) sepia(4%) saturate(3%) hue-rotate(340deg) brightness(98%) contrast(92%);  
+    transition: filter 0.5s;
+}
+
+.icon-contact4 {
+    margin-right: 0;
+}
+
+.icon-contact1:hover,
+.icon-contact2:hover,
+.icon-contact3:hover,
+.icon-contact4:hover {
+    filter: invert(100%) sepia(43%) saturate(3271%) hue-rotate(321deg) brightness(103%) contrast(85%);
+}
+
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.social-icons li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.icon-contact1:link,
+.icon-contact1:visited,
+.icon-contact2:link,
+.icon-contact2:visited,
+.icon-contact3:link,
+.icon-contact3:visited,
+.icon-contact4:link,
+.icon-contact4:visited
+{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.icon-contact:link,
+.icon-contact:visited {
+    font-size: 170%;
+}

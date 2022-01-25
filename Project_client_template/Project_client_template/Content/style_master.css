@@ -1,0 +1,210 @@
+/*GOLD COLOR #eccc68*/
+/*DARK BLUE COLOR #0a0e13*/
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+}
+
+.clearfix {
+    zoom:1
+}
+.clearfix:after {
+    content:" ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto; /*set right margin to auto and left margin to auto - center top,bottom=0 and left,right=auto*/
+}
+
+/*HEADINGS*/
+
+h1 {
+    margin: 0;
+    margin-bottom:15px;
+    color:#fff;
+    font-size: 40px;/*autumatically adjusting its size from the html size*/
+}
+/*HEADER*/
+
+header {
+    background-image: linear-gradient(#fff, #fff);
+    background-size: cover; /*in orderd to see the whole image*/
+    background-position: center; /*centers the image*/
+    min-height: 100vh; /*100% of the viewport*/
+}
+
+/*NAVIGATION*/
+
+.navigation {
+    background-color: #000;
+    box-shadow: 0 2px 2px #101010;
+    height: 14%;
+}
+
+.logo {
+    font-family: 'Dancing Script', sans-serif;
+    text-transform: none;
+    float: left;
+    margin-top: 20px;;
+}
+
+.navi{
+    float:right;
+    list-style: none; /*get rid of the bullet points*/
+    margin-top: 40px;
+}
+
+.navi li{ /*select all li elements inside the nav*/ 
+    display: inline;
+    margin-left: 30px;
+    
+}
+
+.navi li a:link,
+.navi li a:visited {
+    color: #fff;
+    text-decoration: none; /*get rid of the underline*/
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.navi li a:hover,
+.navi li a:active {
+    color: #eccc68;
+}
+
+.navigation-hidden {
+	background-color: #000;
+    box-shadow: 0 2px 2px #101010;
+    height: 14%;
+	display: none;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #0a0e13;
+}
+
+.working-hours {
+    color: #eccc68
+}
+
+footer p {  
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+footer h1 {
+    padding-top: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+	font-family: 'Dancing Script', sans-serif;
+    text-transform: none;
+	text-align: center;
+}
+
+.footer-nav {
+    padding-top:10px;
+    list-style: none;
+    float:left;
+    font-size:16px;
+}
+
+.icon-contact1,
+.icon-contact2,
+.icon-contact3,
+.icon-contact4 {
+    padding-top: 10px;
+    list-style: none;
+    float: right;
+    width: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    filter: invert(54%) sepia(4%) saturate(3%) hue-rotate(340deg) brightness(98%) contrast(92%);  
+    transition: filter 0.5s;
+}
+
+.icon-contact4 {
+    margin-right: 0;
+}
+
+.icon-contact1:hover,
+.icon-contact2:hover,
+.icon-contact3:hover,
+.icon-contact4:hover {
+    filter: invert(100%) sepia(43%) saturate(3271%) hue-rotate(321deg) brightness(103%) contrast(85%);
+}
+
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.social-icons li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.icon-contact1:link,
+.icon-contact1:visited,
+.icon-contact2:link,
+.icon-contact2:visited,
+.icon-contact3:link,
+.icon-contact3:visited,
+.icon-contact4:link,
+.icon-contact4:visited
+{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.icon-contact:link,
+.icon-contact:visited {
+    font-size: 170%;
+}

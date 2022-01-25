@@ -1,0 +1,295 @@
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\WebService.dll.config
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\WebService.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\WebService.pdb
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\csc.exe
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\csc.exe.config
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\csc.rsp
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\csi.exe
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\csi.exe.config
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\csi.rsp
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.AppContext.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Console.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.IO.Compression.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Net.Http.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.ValueTuple.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\vbc.exe
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\vbc.exe.config
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\vbc.rsp
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\VBCSCompiler.exe
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\obj\Debug\WebService.csprojAssemblyReference.cache
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\obj\Debug\WebService.csproj.CoreCompileInputs.cache
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\obj\Debug\WebService.csproj.CopyComplete
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\obj\Debug\WebService.dll
+C:\Users\Miharila\Desktop\docs\s2\II\proiect\WebService\WebService\obj\Debug\WebService.pdb
+C:\Users\Andreia\Desktop\WebService\WebService\bin\WebService.dll.config
+C:\Users\Andreia\Desktop\WebService\WebService\bin\WebService.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\WebService.pdb
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\csc.exe
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\csc.exe.config
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\csc.rsp
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\csi.exe
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\csi.exe.config
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\csi.rsp
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.AppContext.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Console.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Net.Http.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\vbc.exe
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\vbc.exe.config
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\vbc.rsp
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andreia\Desktop\WebService\WebService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andreia\Desktop\WebService\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andreia\Desktop\WebService\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andreia\Desktop\WebService\WebService\obj\Debug\WebService.csprojAssemblyReference.cache
+C:\Users\Andreia\Desktop\WebService\WebService\obj\Debug\WebService.csproj.CoreCompileInputs.cache
+C:\Users\Andreia\Desktop\WebService\WebService\obj\Debug\WebService.csproj.CopyComplete
+C:\Users\Andreia\Desktop\WebService\WebService\obj\Debug\WebService.dll
+C:\Users\Andreia\Desktop\WebService\WebService\obj\Debug\WebService.pdb
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\WebService.dll.config
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\WebService.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\WebService.pdb
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\csc.exe
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\csc.exe.config
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\csc.rsp
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\csi.exe
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\csi.exe.config
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\csi.rsp
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\Microsoft.Win32.Primitives.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.AppContext.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Collections.Immutable.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Console.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Globalization.Calendars.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.IO.Compression.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.IO.Compression.ZipFile.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.IO.FileSystem.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Net.Http.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Net.Sockets.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Reflection.Metadata.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.ValueTuple.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Xml.XPath.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\vbc.exe
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\vbc.exe.config
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\vbc.rsp
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\VBCSCompiler.exe
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\roslyn\VBCSCompiler.exe.config
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\obj\Debug\WebService.csprojAssemblyReference.cache
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\obj\Debug\WebService.csproj.CoreCompileInputs.cache
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\obj\Debug\WebService.csproj.CopyComplete
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\obj\Debug\WebService.dll
+F:\Documents\Facultate III\Sem II\II -- Industrial Informatics\Project II\WebService\WebService\obj\Debug\WebService.pdb
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\WebService.dll.config
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\WebService.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\WebService.pdb
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\csc.exe
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\csc.exe.config
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\csc.rsp
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\csi.exe
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\csi.exe.config
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\csi.rsp
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.AppContext.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Console.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.IO.Compression.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Net.Http.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Net.Sockets.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.ValueTuple.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Xml.XPath.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\vbc.exe
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\vbc.exe.config
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\vbc.rsp
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\VBCSCompiler.exe
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\andre\Desktop\Project II\WebService\WebService\obj\Debug\WebService.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\Project II\WebService\WebService\obj\Debug\WebService.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\Project II\WebService\WebService\obj\Debug\WebService.csproj.CopyComplete
+C:\Users\andre\Desktop\Project II\WebService\WebService\obj\Debug\WebService.dll
+C:\Users\andre\Desktop\Project II\WebService\WebService\obj\Debug\WebService.pdb
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\WebService.dll.config
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\WebService.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\WebService.pdb
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\csc.exe
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\csc.exe.config
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\csc.rsp
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\csi.exe
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\csi.exe.config
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\csi.rsp
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.AppContext.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Console.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.IO.Compression.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Net.Http.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Net.Sockets.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.ValueTuple.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Xml.XPath.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\vbc.exe
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\vbc.exe.config
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\vbc.rsp
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\VBCSCompiler.exe
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\andre\Desktop\.NET project\WebService\WebService\obj\Debug\WebService.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\.NET project\WebService\WebService\obj\Debug\WebService.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\.NET project\WebService\WebService\obj\Debug\WebService.csproj.CopyComplete
+C:\Users\andre\Desktop\.NET project\WebService\WebService\obj\Debug\WebService.dll
+C:\Users\andre\Desktop\.NET project\WebService\WebService\obj\Debug\WebService.pdb

@@ -1,0 +1,260 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Lato',sans-serif;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+h2 {
+	font-size:150%;
+	color: #000;
+}
+
+.im {
+    width: 100px;
+    height: 100px
+}
+.wrapper{
+    width:1200px;
+    margin:100px auto;
+}
+.title{
+    text-align:center;
+    margin-bottom: 60px;
+	margin-top:20px;
+	
+}
+.title h2{
+    color: #eccc68;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 35px;
+	
+}
+
+.title h2:after {
+    display: block;
+    height: 2px;
+    background-color: #eccc68;
+    content: " ";
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+.title h4{
+    text-transform: capitalize;
+    font-size:30px;
+    position: relative;
+    display:inline-block;
+	margin-top:50px;
+}
+.title h4 span{
+    display:block;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom:-10px;
+}
+
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.single-menu{
+    flex-basis: 580px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd ;
+}
+.single-menu:nth-child(5), .single-menu:nth-child(6){
+    border-bottom: 0;
+}
+.single-menu{
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+}
+.single-menu img{
+    max-width:180px;
+    margin-right:30px;
+    border-radius: 100px;
+    border:1px solid #dddddd;
+    padding:3px;
+}
+.single-menu h4{
+    font-size:22px;
+    border-bottom: 1px dashed #333333;
+    margin-bottom: 5px;
+    padding-bottom:5px;
+}
+
+/*NAVIGATION*/
+
+h1 {
+    margin: 0;
+    margin-bottom:15px;
+    color:#fff;
+    font-size: 40px;/*autumatically adjusting its size from the html size*/
+}
+
+.navigation {
+    background-color: #000;
+    box-shadow: 0 2px 2px #101010;
+    height: 14%;
+}
+
+.logo {
+    font-family: 'Dancing Script', sans-serif;
+    text-transform: none;
+    float: left;
+    margin-top: 20px;;
+}
+
+.navi{
+    float:right;
+    list-style: none; /*get rid of the bullet points*/
+    margin-top: 40px;
+}
+
+.navi li{ /*select all li elements inside the nav*/ 
+    display: inline;
+    margin-left: 30px;
+}
+
+.navi li a:link,
+.navi li a:visited {
+    color: #fff;
+    text-decoration: none; /*get rid of the underline*/
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.navi li a:hover,
+.navi li a:active {
+    color: #eccc68;
+}
+
+.navigation-hidden {
+	background-color: #000;
+    box-shadow: 0 2px 2px #101010;
+    height: 14%;
+	display: none;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #0a0e13;
+}
+
+.working-hours {
+    color: #eccc68
+}
+
+footer p {  
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+footer h1 {
+    padding-top: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+	font-family: 'Dancing Script', sans-serif;
+    text-transform: none;
+	text-align: center;
+}
+
+
+.footer-nav {
+    padding-top:10px;
+    list-style: none;
+    float:left;
+    font-size:16px;
+}
+
+.icon-contact1,
+.icon-contact2,
+.icon-contact3,
+.icon-contact4 {
+    padding-top: 10px;
+    list-style: none;
+    float: right;
+    width: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    filter: invert(54%) sepia(4%) saturate(3%) hue-rotate(340deg) brightness(98%) contrast(92%);  
+    transition: filter 0.5s;
+}
+
+.icon-contact4 {
+    margin-right: 0;
+}
+
+.icon-contact1:hover,
+.icon-contact2:hover,
+.icon-contact3:hover,
+.icon-contact4:hover {
+    filter: invert(100%) sepia(43%) saturate(3271%) hue-rotate(321deg) brightness(103%) contrast(85%);
+}
+
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.social-icons li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.icon-contact1:link,
+.icon-contact1:visited,
+.icon-contact2:link,
+.icon-contact2:visited,
+.icon-contact3:link,
+.icon-contact3:visited,
+.icon-contact4:link,
+.icon-contact4:visited
+{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.icon-contact:link,
+.icon-contact:visited {
+    font-size: 170%;
+}

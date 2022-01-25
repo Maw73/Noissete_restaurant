@@ -1,0 +1,410 @@
+/*GOLD COLOR #eccc68*/
+/*DARK BLUE COLOR #0a0e13*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden; 
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/*CLEARING THE FLOATS*/
+
+.clearfix {
+    zoom:1
+}
+.clearfix:after {
+    content:" ";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto; /*set right margin to auto and left margin to auto - center top,bottom=0 and left,right=auto*/
+}
+
+.text-box{
+    position:absolute; /*we can vertically and horizontally center it*/
+    width:1140px;
+    top:40%;
+    left:19%;
+}
+
+/*HEADINGS*/
+
+h3 {
+    margin-bottom:15px;
+    color: #fff;
+    font-size: 200%;/*autumatically adjusting its size from the html size*/
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 400;
+	text-align: center;
+}
+
+h2 {
+    color: #eccc68;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 35px;
+	text-align: center;
+    margin-bottom: 10px;
+}
+
+.title1:after {
+    display: block;
+    height: 2px;
+    background-color: #eccc68;
+    content: " ";
+    width: 200px;
+	margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.title2:after {
+    display: block;
+    height: 2px;
+    background-color: #eccc68;
+    content: " ";
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.title3 {
+    margin-top: 30px;
+    text-align: center;
+    margin-left:0;
+}
+
+.title3:after {
+    display: block;
+    height: 2px;
+    background-color: #eccc68;
+    content: " ";
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+
+/*HEADER*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),url("../fonts/food.jpeg"); /*two background images on top of eachother and adding transperency for the first one*/
+    background-size: cover; /*in orderd to see the whole image*/
+    background-position: center; /*centers the image*/
+    height: 100vh; /*100% of the viewport*/
+}
+
+/*Buttons*/
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: 1px solid #393939;
+    color: #fff;
+    transition: background-color 0.4s;
+    text-decoration: none;
+}
+
+
+.ghost-btn {
+    border: 1px solid #b1b1b1;
+    background-color: rgba(255, 255, 255, 0);
+    position:absolute;
+    right:39%;
+}
+
+.full-btn {
+    background-color: #eccc68;
+    position:absolute;
+    right:48%;
+}
+
+.full-btn:hover,
+.full-btn:active {
+    background-color: #d4b85e;
+}
+
+.ghost-btn:hover,
+.ghost-btn:active {
+    background-color: #eccc68;
+}
+
+/*SECTIONS*/
+
+/*OUR STORY*/
+
+.story-box {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.story-box:first-child {
+    text-align: left;
+}
+
+.story-box:last-child {
+    text-align: right;
+}
+
+.story-box:nth-child(2) {
+    text-align: center;
+}
+
+.cooking {
+    width: 100%;
+}
+.story-box h2 {
+    margin-left:-30px;
+}
+
+.story-box h2:after {
+}
+
+
+/*MEALS*/
+
+.section-food {
+    padding-top: 50px;
+}
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;  
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: opacity 0.5s, -webkit-transform 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+
+.meal-photo img:hover {
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.text-food {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.section-food {
+    background-color: #f8f8f8;
+}
+
+/*NAVIGATION*/
+
+h1 {
+    margin: 0;
+    margin-bottom:15px;
+    color:#fff;
+    font-size: 40px;/*autumatically adjusting its size from the html size*/
+}
+
+.navigation {
+    background-color: #000;
+    box-shadow: 0 2px 2px #101010;
+    height: 14%;
+}
+
+.logo {
+    font-family: 'Dancing Script', sans-serif;
+    text-transform: none;
+    float: left;
+    margin-top: 20px;;
+}
+
+.navi{
+    float:right;
+    list-style: none; /*get rid of the bullet points*/
+    margin-top: 40px;
+}
+
+.navi li{ /*select all li elements inside the nav*/ 
+    display: inline;
+    margin-left: 30px;
+    
+}
+
+.navi li a:link,
+.navi li a:visited {
+    color: #fff;
+    text-decoration: none; /*get rid of the underline*/
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: color 0.2s;
+}
+
+.navi li a:hover,
+.navi li a:active {
+    color: #eccc68;
+}
+
+.navigation-hidden {
+	background-color: #000;
+    box-shadow: 0 2px 2px #101010;
+    height: 14%;
+	display: none;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #0a0e13;
+}
+
+.working-hours {
+    color: #eccc68
+}
+
+footer p {  
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+footer h1 {
+    padding-top: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+	font-family: 'Dancing Script', sans-serif;
+    text-transform: none;
+	text-align: center;
+}
+
+.footer-nav {
+    padding-top:10px;
+    list-style: none;
+    float:left;
+    font-size:16px;
+}
+
+.icon-contact1,
+.icon-contact2,
+.icon-contact3,
+.icon-contact4 {
+    padding-top: 10px;
+    list-style: none;
+    float: right;
+    width: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    filter: invert(54%) sepia(4%) saturate(3%) hue-rotate(340deg) brightness(98%) contrast(92%);  
+    transition: filter 0.5s;
+}
+
+.icon-contact4 {
+    margin-right: 0;
+}
+
+.icon-contact1:hover,
+.icon-contact2:hover,
+.icon-contact3:hover,
+.icon-contact4:hover {
+    filter: invert(100%) sepia(43%) saturate(3271%) hue-rotate(321deg) brightness(103%) contrast(85%);
+}
+
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.social-icons li{
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.icon-contact1:link,
+.icon-contact1:visited,
+.icon-contact2:link,
+.icon-contact2:visited,
+.icon-contact3:link,
+.icon-contact3:visited,
+.icon-contact4:link,
+.icon-contact4:visited
+{
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.icon-contact:link,
+.icon-contact:visited {
+    font-size: 170%;
+}
+
+
+
+
+
